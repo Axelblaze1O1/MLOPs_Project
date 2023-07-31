@@ -1,7 +1,8 @@
-artificats_root : artifacts
+artifacts_root : artifacts
 
 data_ingestion:
   root_dir: artificats/data_ingestion
-  source_url : https://github.com/Axelblaze1O1/ml_project/blob/main/winequality-data.zip
+  source_url : https://github.com/Axelblaze1O1/ml_project/raw/main/winequality-data.zip
+  
   local_data_file : artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
