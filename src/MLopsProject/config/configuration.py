@@ -1,7 +1,7 @@
 from MLopsProject.constants import *
 from MLopsProject.utils.common import read_yaml, create_directories
 from MLopsProject.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig
-from pyhelpers.store import save_json
+
 class ConfigurationManager:
     def __init__(
             self,
@@ -90,7 +90,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name=config.metric_file_name,
             target_column=schema.name,
-            mlflow_uri="https://dagshub.com/Axelblaze1O1/MLOPs_Project.mlflow"
+            mlflow_uri="https://dagshub.com/Axelblaze1O1/MLOPs_Project.mlflow",
 
         )
 

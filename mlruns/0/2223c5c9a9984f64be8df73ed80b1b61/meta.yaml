@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Arnav%20Teotia/Desktop/MLOPs/MLOPs_Project/mlruns/0/2223c5c9a9984f64be8df73ed80b1b61/artifacts
+end_time: 1691409510703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2223c5c9a9984f64be8df73ed80b1b61
+run_name: efficient-lamb-996
+run_uuid: 2223c5c9a9984f64be8df73ed80b1b61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691409507905
+status: 3
+tags: []
+user_id: Arnav Teotia
